@@ -4,10 +4,15 @@ Copyright (c) LIUYUCHEN 2026/11/20
 
 標準入力（`stdin`）から2つの数値を読み込み、その積を標準出力（`stdout`）へ出力するコマンドです。
 
+## 動作環境
+
+* Ubuntu
+* Python: 3.x
+
 ## 使い方
 
 スペース区切りまたは改行区切りで2つの数値を標準入力に渡します。
 
 ```bash
-入力：printf "6 7\n" | python3 kadai.py
+入力：$ printf "6 7\n" | python3 kadai.py
 出力：42
