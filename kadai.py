@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2026 LIUYUCHEN liuyuchen843@gmail.com
 import sys
 
 def multiply_tokens(tokens: list[str]) -> float | int:
