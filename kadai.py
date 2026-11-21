@@ -1,6 +1,4 @@
-
 import sys
-
 
 def multiply_tokens(tokens: list[str]) -> float | int:
     if len(tokens) < 2:
@@ -12,14 +10,12 @@ def multiply_tokens(tokens: list[str]) -> float | int:
         return int(prod)
     return prod
 
-
 def main() -> None:
     tokens = sys.stdin.read().split()
     if not tokens:
         return
     result = multiply_tokens(tokens)
     sys.stdout.write(f"{result}\n")
-
 
 if __name__ == "__main__":
     main()
